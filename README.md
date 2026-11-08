@@ -1,5 +1,5 @@
 <a href="https://natricknye.cn/#chat">
-  <img src="assets/rag-orbit-cycle-final.gif" width="100%" alt="Agent and RAG execution loop: eight stages surrounding a rotating ASCII Earth">
+  <img src="assets/rag-orbit-static-nate.gif" width="100%" alt="Agent and RAG execution loop: eight stages around a continuously rotating ASCII Earth with static NATE NYE lettering">
 </a>
 
 <a href="https://natricknye.cn/#chat">
