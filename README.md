@@ -1,8 +1,8 @@
 <table>
 <tr>
-<td width="30%" valign="top" align="center">
+<td width="24%" valign="top" align="center">
 
-<img src="https://avatars.githubusercontent.com/u/187255733?v=4&s=480" width="210" alt="Nate Nye">
+<img src="https://avatars.githubusercontent.com/u/187255733?v=4&s=480" width="170" alt="Nate Nye">
 
 ### Nate Nye
 
@@ -14,7 +14,7 @@ Shanghai Jiao Tong University
 `Agent systems` `RAG` `interactive web`
 
 </td>
-<td width="70%" valign="top">
+<td width="76%" valign="top">
 
 <a href="https://natricknye.cn/#chat">
   <img src="assets/agentic-rag-loop.svg" width="760" alt="Agent and RAG execution loop: persona, query, tokenization, retrieval, reranking, context assembly, generation and response">
