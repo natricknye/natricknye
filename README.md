@@ -1,5 +1,5 @@
 <a href="https://natricknye.cn/#chat">
-  <img src="assets/inspectable-rag-v6.svg" width="100%" alt="Agent and RAG execution loop: persona, query, tokenization, retrieval, reranking, context assembly, generation and response">
+  <img src="assets/inspectable-rag-orbit.svg" width="100%" alt="Agent and RAG execution loop: eight stages orbiting a rotating ASCII Earth">
 </a>
 
 <a href="https://natricknye.cn/#chat">
