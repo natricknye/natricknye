@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="164" viewBox="0 0 1200 164" role="img" aria-labelledby="title desc">
+  <title id="title">Ask my AI</title>
+  <desc id="desc">A chat-style entry point that opens the live personal agent on natricknye.cn.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1b2b"/>
+      <stop offset="1" stop-color="#081522"/>
+    </linearGradient>
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8f1ff"/>
+      <stop offset="1" stop-color="#82cfff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <style>
+      .sans { font-family: "Segoe UI", "Microsoft YaHei", sans-serif; }
+      .mono { font-family: "Cascadia Code", Consolas, monospace; }
+      .cursor { animation: blink 1.15s steps(1, end) infinite; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+      @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: .95; } }
+      @media (prefers-reduced-motion: reduce) {
+        .cursor, .pulse { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect x="18" y="14" width="1164" height="136" rx="22" fill="url(#surface)" stroke="#35617f" stroke-width="1.2"/>
+  <circle cx="54" cy="43" r="16" fill="#153b58" stroke="#79d5ff"/>
+  <path d="M49 43h10m-5-5 5 5-5 5" fill="none" stroke="#d5f3ff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="82" y="40" fill="#7cd5ff" font-size="13" class="mono">MY AI / LIVE</text>
+  <circle cx="82" cy="55" r="3" fill="#8be8c2" class="pulse"/>
+  <text x="93" y="59" fill="#7590a6" font-size="12.5" class="sans">interactive chat on the personal site</text>
+
+  <text x="50" y="97" fill="#f4f9fd" font-size="25" letter-spacing="-.3" class="sans">Ask my AI about my work, interests, or experience</text>
+  <rect x="616" y="80" width="2" height="26" rx="1" fill="#7ed7ff" class="cursor"/>
+  <text x="50" y="125" fill="#7892a8" font-size="14" class="sans">Opens the live agent · retrieval and Rerank run on the website, never inside this README</text>
+
+  <rect x="900" y="47" width="234" height="72" rx="16" fill="url(#button)"/>
+  <text x="1017" y="90" text-anchor="middle" fill="#06121f" font-size="20" font-weight="700" class="sans">Open live agent ↗</text>
+</svg>
