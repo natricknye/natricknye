@@ -56,7 +56,7 @@
     <text x="44" y="47" fill="#6e8aa5" class="small">NATE NYE / AGENTIC ENGINEERING</text>
     <text x="44" y="91" fill="#f4f8fc" font-size="44" class="display">Inspectable Agent / RAG</text>
     <text x="1156" y="54" text-anchor="end" fill="#78cfff" class="small">LIVE RETRIEVAL SYSTEM</text>
-    <text x="1156" y="78" text-anchor="end" fill="#7189a1" class="small">33 APPROVED FACTS · SERVER-SIDE</text>
+    <text x="1156" y="78" text-anchor="end" fill="#7189a1" class="small">APPROVED FACTS · SERVER-SIDE</text>
   </g>
 
   <g>
@@ -118,7 +118,7 @@
     <circle cx="1060" cy="402" r="42" fill="#0b2133" stroke="#6ccaff" stroke-width="1.5"/>
     <path d="M1048 384h24v37h-24zM1044 396h32M1052 390h4m5 0h4m5 0h4" fill="none" stroke="#a9e2ff" stroke-width="1.4" stroke-linecap="round"/>
     <text x="1060" y="458" text-anchor="middle" fill="#f0f7fc" font-size="20" class="label">候选召回</text>
-    <text x="1060" y="483" text-anchor="middle" fill="#67c8ff" font-size="15" class="mono">33 facts</text>
+    <text x="1060" y="483" text-anchor="middle" fill="#67c8ff" font-size="15" class="mono">approved facts</text>
     <text x="1060" y="500" text-anchor="middle" fill="#8aa1b5" class="small">local index</text>
   </g>
 
