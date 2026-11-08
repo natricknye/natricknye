@@ -35,7 +35,6 @@
 
   <text x="50" y="97" fill="#f4f9fd" font-size="25" letter-spacing="-.3" class="sans">Ask my AI about my work, interests, or experience</text>
   <rect x="616" y="80" width="2" height="26" rx="1" fill="#7ed7ff" class="cursor"/>
-  <text x="50" y="125" fill="#7892a8" font-size="14" class="sans">Opens the live agent · retrieval and Rerank run on the website, never inside this README</text>
 
   <rect x="900" y="47" width="234" height="72" rx="16" fill="url(#button)"/>
   <text x="1017" y="90" text-anchor="middle" fill="#06121f" font-size="20" font-weight="700" class="sans">Open live agent ↗</text>
