@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920" role="img" aria-labelledby="title desc">
+  <title id="title">Inspectable R-A-G</title>
+  <desc id="desc">Eight RAG stages arranged around a large rotating ASCII Earth, with an example at every stage.</desc>
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".45" r=".78">
+      <stop offset="0" stop-color="#0a2035"/>
+      <stop offset=".48" stop-color="#071526"/>
+      <stop offset="1" stop-color="#030911"/>
+    </radialGradient>
+    <radialGradient id="globe" cx=".38" cy=".3" r=".72">
+      <stop offset="0" stop-color="#174c69"/>
+      <stop offset=".55" stop-color="#0a2b43"/>
+      <stop offset="1" stop-color="#02070d"/>
+    </radialGradient>
+    <radialGradient id="globeShade" cx=".36" cy=".28" r=".7">
+      <stop offset="0" stop-color="#00050a" stop-opacity="0"/>
+      <stop offset=".62" stop-color="#00050a" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#00050a" stop-opacity=".82"/>
+    </radialGradient>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d5f3ff"/>
+      <stop offset=".36" stop-color="#68cfff"/>
+      <stop offset=".7" stop-color="#7ba9ff"/>
+      <stop offset="1" stop-color="#e3f5ff"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2b"/>
+      <stop offset="1" stop-color="#07111e"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#a8d4ff" stroke-opacity=".035"/>
+    </pattern>
+    <clipPath id="globeClip">
+      <circle cx="600" cy="470" r="172"/>
+    </clipPath>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .sans { font-family: "Segoe UI", "Microsoft YaHei", sans-serif; }
+      .display { font-family: "Arial Narrow", "Segoe UI", sans-serif; font-weight: 700; letter-spacing: -.8px; }
+      .mono { font-family: "Cascadia Code", Consolas, monospace; }
+      .ascii { font-family: Consolas, "Cascadia Code", monospace; font-size: 7.1px; }
+      .packet { animation: breathe 2.8s ease-in-out infinite; }
+      .orbit-line { stroke-dasharray: 3 12; animation: flow 4s linear infinite; }
+      .ascii-front { animation: ascii-front 9s ease-in-out infinite alternate; }
+      @keyframes flow { to { stroke-dashoffset: -30; } }
+      @keyframes breathe { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+      @keyframes ascii-front { from { transform: translateX(-14px); } to { transform: translateX(14px); } }
+      @media (prefers-reduced-motion: reduce) {
+        .packet, .orbit-line, .ascii-front { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="920" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="920" rx="24" fill="url(#grid)"/>
+
+  <g class="sans">
+    <text x="44" y="43" fill="#7794af" font-size="13" letter-spacing=".8">NATE NYE / AGENTIC ENGINEERING</text>
+    <text x="44" y="86" fill="#f5f9fc" font-size="44" class="display">Inspectable R-A-G</text>
+  </g>
+
+  <path d="M185 315L600 170L1015 315L1045 500L1015 685L600 830L185 685L155 500Z" fill="none" stroke="#18364c" stroke-width="2"/>
+  <path class="orbit-line" d="M185 315L600 170L1015 315L1045 500L1015 685L600 830L185 685L155 500Z" fill="none" stroke="url(#trace)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#glow)" class="packet">
+    <circle r="5" fill="#d9f5ff">
+      <animateMotion dur="12s" repeatCount="indefinite" path="M185 315L600 170L1015 315L1045 500L1015 685L600 830L185 685L155 500Z"/>
+    </circle>
+  </g>
+
+  <g aria-hidden="true">
+    <text x="600" y="275" text-anchor="middle" fill="#73a7c5" font-size="10.5" letter-spacing="2" class="mono">ASCII EARTH / ROTATING</text>
+    <circle cx="600" cy="470" r="188" fill="#6cd7ff" opacity=".06" filter="url(#glow)"/>
+    <circle cx="600" cy="470" r="172" fill="url(#globe)" stroke="#84dfff" stroke-opacity=".72"/>
+    <g clip-path="url(#globeClip)">
+      <g class="ascii-front" opacity=".92" xml:space="preserve" fill="#b8e9ff">
+        <text x="444" y="336">                           **#:::##::,,,,,**+                           </text>
+        <text x="444" y="344.4">                     ########:::,,,,,,,,,,,,,,***+,                     </text>
+        <text x="444" y="352.8">                 #:##%%%%%%%,,,,,,,,,,,,,,,,,,,,****++,                 </text>
+        <text x="444" y="361.2">              #::%%%%%%%%%%,,,,,,,,,,,,,,,,,,,,,,,,****+,,              </text>
+        <text x="444" y="369.6">            :::%%%%%%%%%%%,,,,,,,,,,,,,,,,,,,,,,,,,,,***+++,            </text>
+        <text x="444" y="378">         #::::%%%%%%@@@@@,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,**++,,,         </text>
+        <text x="444" y="386.4">        :::::%%%@@@@@@@@,,,,,,,,,,,,,,,,,,%%%%%#######,,,,,,,,,,        </text>
+        <text x="444" y="394.8">      ::::::%%@@@@@@@@@@,,,,,,,,,,,,,,,,,%%%%%%%#######,,,,,,,,,,,      </text>
+        <text x="444" y="403.2">     :::::::@@@@@@@@@@@,,,,,,,,,,,,,,,,,%%%%%%%%########,,,,,,,,,,,     </text>
+        <text x="444" y="411.6">    :::::::::@@@@@@@@@,,,,,,,,,,,,,,,,%%%%%%%#######*,,,,,...,,,        </text>
+        <text x="444" y="420">   ::::::::,,,,,,,,,,,,,,,,,,,,,,,,,,%%%%%%%%%%%########*.........,,   </text>
+        <text x="444" y="428.4">  ::::::::,,,,,,,,,,,,,,,,,,,,,,,,,@@%%%%%%%%%%%########**.........,,  </text>
+        <text x="444" y="436.8"> ::::::::,,,,,,,,,,,,,,,,,@@@@@@@@@@@@%%%%%%%%%%%########**..........,, </text>
+        <text x="444" y="445.2"> ::::::,,,,,,,,,,,,,,,,,@@@@@@@@@@@@@%%%%%%%%%%%%########***.........,, </text>
+        <text x="444" y="453.6">::::::,,,,,,,,,,,,,,,,,,@@@@@@@@@@@@%%%%%%%%%%%%%########***..........,=</text>
+        <text x="444" y="462">:::::,,,,,,,,,,,,,,,,,,,@@@@@@@@@@@%%%%%%%%%%%%%########*****.........,,</text>
+        <text x="444" y="470.4">::::,,,,,,,,,,,,,,,,,,,@@@@@@@@@@%%%%%%%%%%%%%%#########*****.........,,</text>
+        <text x="444" y="478.8">::::,,,,,,,,,,,,,,,,,,,@@@@@@@@%%%%%%%%%%%%%%%#########******.........,,</text>
+        <text x="444" y="487.2">:::,,,,,,,,,,,,,,,,,,,,,@@@@%%%%%%%%%%%%%%%%%#########*******.........,,</text>
+        <text x="444" y="495.6">:::,,,,,,,,,,,,,,,,,,,,,%%%%%%%%%%%%%%%%%%%##########*******++........,,</text>
+        <text x="444" y="504"> :,,,,,,,,,,,,,,,,,,,,,,%%%%%%%%%%%%%%%%%%#########........+++++.....,, </text>
+        <text x="444" y="512.4"> :,,,,,,,,,,,,,,,,,,,,,,%%%%%%%%%%%%%%%##########...........++++===..,, </text>
+        <text x="444" y="520.8">  ,,,,,,,,,,,,,,,,,,,,,,%%%%%%%%%%%%%##########.............++++===.,,  </text>
+        <text x="444" y="529.2">   ,,,,,,,,,,,,,,,,,,,,,%%%%%%%%%#############.............++++====,,   </text>
+        <text x="444" y="537.6">    ,,,,,,,,,,,,,,,,,,,,%%##################*..............+++=====,    </text>
+        <text x="444" y="546">     ,,,,,,,,,,,,,,,,,,##################**...............++======,     </text>
+        <text x="444" y="554.4">      +,,,,,,,,,,#####################***................+=======,      </text>
+        <text x="444" y="562.8">        +,,,,,,,,############...........................=======,        </text>
+        <text x="444" y="571.2">         =,,,,,,,***********...........................=======,         </text>
+        <text x="444" y="579.6">            +,,,,,***********.........................======            </text>
+        <text x="444" y="588">              =+,,,,+++++++++........................=====              </text>
+        <text x="444" y="596.4">                 ===++++++++++.....................,===                 </text>
+        <text x="444" y="604.8">                     ==========.............==,,,,=                     </text>
+        <text x="444" y="613.2">                           =====,,,,,,,,==,,=                           </text>
+      </g>
+      <circle cx="600" cy="470" r="172" fill="url(#globeShade)"/>
+    </g>
+    <ellipse cx="600" cy="470" rx="156" ry="54" transform="rotate(-18 600 470)" fill="none" stroke="#c4f2ff" stroke-opacity=".2"/>
+    <ellipse cx="600" cy="470" rx="92" ry="165" fill="none" stroke="#c4f2ff" stroke-opacity=".15"/>
+    <path d="M429 470h342" stroke="#d8f6ff" stroke-opacity=".12"/>
+    <circle cx="600" cy="470" r="172" fill="none" stroke="#a9efff" stroke-opacity=".68"/>
+  </g>
+
+  <g>
+    <rect x="70" y="250" width="220" height="124" rx="16" fill="url(#card)" stroke="#4da8d2"/>
+    <circle cx="98" cy="278" r="10" fill="none" stroke="#c5efff" stroke-width="1.4"/>
+    <path d="M98 266v7m-6 13c1-8 3-11 6-11s5 3 6 11" fill="none" stroke="#a9e4ff" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="118" y="277" fill="#f1f8fd" font-size="14" font-weight="600">Persona v1</text>
+    <text x="118" y="294" fill="#7896ad" font-size="10.5" class="mono">SERVER-ONLY</text>
+    <rect x="88" y="309" width="56" height="22" rx="6" fill="#122f45"/><text x="116" y="324" text-anchor="middle" fill="#9ee8ff" font-size="11" class="mono">0.70</text>
+    <rect x="150" y="309" width="78" height="22" rx="6" fill="#122f45"/><text x="189" y="324" text-anchor="middle" fill="#9ee8ff" font-size="11" class="mono">thinking off</text>
+    <text x="180" y="351" text-anchor="middle" fill="#edf7ff" font-size="14" font-weight="600">01 · Load persona</text>
+  </g>
+
+  <g>
+    <rect x="490" y="105" width="220" height="124" rx="16" fill="url(#card)" stroke="#558db8"/>
+    <text x="510" y="130" fill="#7ca3bd" font-size="10.5" class="mono">VISITOR QUERY</text>
+    <text x="600" y="161" text-anchor="middle" fill="#f5f9fd" font-size="16" font-weight="600">How tall are you?</text>
+    <text x="600" y="184" text-anchor="middle" fill="#a8d8f3" font-size="11" class="mono">16 chars · EN</text>
+    <text x="600" y="207" text-anchor="middle" fill="#edf7ff" font-size="14" font-weight="600">02 · Read query</text>
+  </g>
+
+  <g>
+    <rect x="910" y="250" width="220" height="124" rx="16" fill="url(#card)" stroke="#6b91d5"/>
+    <text x="1020" y="276" text-anchor="middle" fill="#7f9fc2" font-size="10.5" class="mono">TOKENIZE RESULT</text>
+    <g fill="#d6e5ff" font-size="12.5" class="mono">
+      <rect x="935" y="288" width="47" height="23" rx="5" fill="#152b47"/><text x="958" y="304" text-anchor="middle">how</text>
+      <rect x="988" y="288" width="47" height="23" rx="5" fill="#152b47"/><text x="1011" y="304" text-anchor="middle">tall</text>
+      <rect x="1041" y="288" width="42" height="23" rx="5" fill="#152b47"/><text x="1062" y="304" text-anchor="middle">you</text>
+    </g>
+    <text x="1020" y="330" text-anchor="middle" fill="#8ec9ee" font-size="10.5" class="mono">3 query tokens</text>
+    <text x="1020" y="352" text-anchor="middle" fill="#edf7ff" font-size="14" font-weight="600">03 · Tokenize</text>
+  </g>
+
+  <g>
+    <rect x="935" y="435" width="220" height="130" rx="16" fill="url(#card)" stroke="#7ba9d5"/>
+    <text x="955" y="458" fill="#7f9fc2" font-size="10.5" class="mono">RECALL RESULT</text>
+    <rect x="955" y="469" width="180" height="19" rx="4" fill="#15354a"/><text x="965" y="482" fill="#d9f4ff" font-size="10.5" class="mono">K023 · identity</text>
+    <rect x="955" y="493" width="180" height="19" rx="4" fill="#102a3d"/><text x="965" y="506" fill="#9eb9cb" font-size="10.5" class="mono">K014 · interests</text>
+    <rect x="955" y="517" width="180" height="19" rx="4" fill="#102a3d"/><text x="965" y="530" fill="#9eb9cb" font-size="10.5" class="mono">K020 · travel</text>
+    <text x="1045" y="552" text-anchor="middle" fill="#edf7ff" font-size="14" font-weight="600">04 · Recall</text>
+  </g>
+
+  <g>
+    <rect x="910" y="620" width="220" height="130" rx="16" fill="url(#card)" stroke="#8baee6"/>
+    <text x="940" y="646" fill="#f2f7fd" font-size="11.5" class="mono">K023</text>
+    <rect x="985" y="638" width="112" height="9" rx="4" fill="#1b3952"/><rect x="985" y="638" width="112" height="9" rx="4" fill="#ddf4ff"/>
+    <text x="1125" y="647" text-anchor="end" fill="#e3f6ff" font-size="10.5" class="mono">18</text>
+    <text x="940" y="670" fill="#9dbed4" font-size="11.5" class="mono">K014</text>
+    <rect x="985" y="662" width="112" height="9" rx="4" fill="#1b3952"/><rect x="985" y="662" width="14" height="9" rx="4" fill="#5f8eb4"/>
+    <text x="1125" y="671" text-anchor="end" fill="#8cb6d2" font-size="10.5" class="mono">2</text>
+    <text x="940" y="694" fill="#8ea9bd" font-size="11.5" class="mono">K020</text>
+    <rect x="985" y="686" width="112" height="9" rx="4" fill="#1b3952"/><rect x="985" y="686" width="7" height="9" rx="3" fill="#355e7c"/>
+    <text x="1125" y="695" text-anchor="end" fill="#6f97b2" font-size="10.5" class="mono">1</text>
+    <text x="1020" y="718" text-anchor="middle" fill="#b8dcf3" font-size="10.5" class="mono">keep K023 · cutoff ≥3</text>
+    <text x="1020" y="739" text-anchor="middle" fill="#edf7ff" font-size="14" font-weight="600">05 · Rerank</text>
+  </g>
+
+  <g>
+    <rect x="490" y="765" width="220" height="125" rx="16" fill="url(#card)" stroke="#6da7cf"/>
+    <text x="600" y="791" text-anchor="middle" fill="#7f9fc2" font-size="10.5" class="mono">CONTEXT WINDOW</text>
+    <rect x="510" y="802" width="180" height="26" rx="5" fill="#12364b" stroke="#8ddcff"/>
+    <text x="522" y="819" fill="#d8f5ff" font-size="10.5" class="mono">[K023] Personal profile</text>
+    <text x="600" y="847" text-anchor="middle" fill="#9bdafa" font-size="10.5" class="mono">1 selected · 96 chars</text>
+    <text x="600" y="870" text-anchor="middle" fill="#edf7ff" font-size="14" font-weight="600">06 · Assemble context</text>
+  </g>
+
+  <g>
+    <rect x="70" y="620" width="220" height="130" rx="16" fill="url(#card)" stroke="#7998d8"/>
+    <text x="180" y="646" text-anchor="middle" fill="#7f9fc2" font-size="10.5" class="mono">MODEL CONTEXT</text>
+    <rect x="92" y="658" width="70" height="21" rx="5" fill="#172849"/><text x="127" y="673" text-anchor="middle" fill="#d4e4ff" font-size="10.5">persona</text>
+    <text x="174" y="673" fill="#5d809e">→</text>
+    <rect x="186" y="658" width="82" height="21" rx="5" fill="#172849"/><text x="227" y="673" text-anchor="middle" fill="#d4e4ff" font-size="10.5">knowledge</text>
+    <rect x="92" y="686" width="176" height="21" rx="5" fill="#102339"/><text x="180" y="701" text-anchor="middle" fill="#9fb9cf" font-size="10.5" class="mono">deepseek-v4-flash</text>
+    <text x="180" y="720" text-anchor="middle" fill="#9bc5e1" font-size="10" class="mono">temp 0.70 · max 400 · 25s</text>
+    <text x="180" y="739" text-anchor="middle" fill="#edf7ff" font-size="14" font-weight="600">07 · Generate</text>
+  </g>
+
+  <g>
+    <rect x="45" y="435" width="220" height="130" rx="16" fill="url(#card)" stroke="#8fd8f7"/>
+    <path d="M75 465h150a12 12 0 0 1 12 12v35a12 12 0 0 1-12 12h-88l-22 15v-15H75a12 12 0 0 1-12-12v-35a12 12 0 0 1 12-12z" fill="#0f2b40" stroke="#79acd0"/>
+    <text x="150" y="493" text-anchor="middle" fill="#f5fbfe" font-size="14">I'm 185 cm tall.</text>
+    <text x="150" y="516" text-anchor="middle" fill="#a6ddf6" font-size="10.5" class="mono">1 source · returned</text>
+    <text x="155" y="552" text-anchor="middle" fill="#edf7ff" font-size="14" font-weight="600">08 · Return answer</text>
+  </g>
+</svg>
