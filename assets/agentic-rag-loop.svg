@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic RAG execution loop</title>
+  <desc id="desc">An inspectable agent pipeline from persona loading through query, retrieval, reranking, context assembly, generation and response.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061321"/>
+      <stop offset=".58" stop-color="#071827"/>
+      <stop offset="1" stop-color="#05111d"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#397aab"/>
+      <stop offset=".48" stop-color="#62c5ff"/>
+      <stop offset="1" stop-color="#2b5b84"/>
+    </linearGradient>
+    <linearGradient id="bubble" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10283e"/>
+      <stop offset="1" stop-color="#0b1d2e"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#8ab8df" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+    <style>
+      .display { font-family: "Arial Narrow", "Segoe UI", "Microsoft YaHei", sans-serif; font-weight: 700; letter-spacing: -.8px; }
+      .label { font-family: "Segoe UI", "Microsoft YaHei", sans-serif; font-size: 16px; letter-spacing: .2px; }
+      .small { font-family: "Segoe UI", "Microsoft YaHei", sans-serif; font-size: 14px; letter-spacing: .2px; }
+      .mono { font-family: "Cascadia Code", Consolas, monospace; }
+      .node { animation: breathe 4.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .n2 { animation-delay: -.6s; }
+      .n3 { animation-delay: -1.2s; }
+      .n4 { animation-delay: -1.8s; }
+      .n5 { animation-delay: -2.4s; }
+      .n6 { animation-delay: -3s; }
+      .n7 { animation-delay: -3.6s; }
+      .n8 { animation-delay: -4.2s; }
+      .flow { stroke-dasharray: 4 10; animation: flow 2.8s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -28; } }
+      @keyframes breathe { 0%, 100% { opacity: .78; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .node, .flow { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="760" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="760" rx="22" fill="url(#grid)"/>
+  <path d="M0 244H1200" stroke="#83add2" stroke-opacity=".14"/>
+
+  <g>
+    <text x="44" y="47" fill="#6e8aa5" class="small">NATE NYE / AGENTIC ENGINEERING</text>
+    <text x="44" y="91" fill="#f4f8fc" font-size="44" class="display">Inspectable Agent / RAG</text>
+    <text x="1156" y="54" text-anchor="end" fill="#78cfff" class="small">LIVE RETRIEVAL SYSTEM</text>
+    <text x="1156" y="78" text-anchor="end" fill="#7189a1" class="small">33 APPROVED FACTS · SERVER-SIDE</text>
+  </g>
+
+  <g>
+    <rect x="44" y="120" width="508" height="92" rx="18" fill="url(#bubble)" stroke="#3e739b" stroke-opacity=".65"/>
+    <circle cx="78" cy="151" r="14" fill="#12314b" stroke="#65bfff"/>
+    <path d="M73 151h10M77 146l5 5-5 5" fill="none" stroke="#b9e7ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="105" y="156" fill="#8ba8c0" class="small">VISITOR QUERY</text>
+    <text x="105" y="188" fill="#f0f7fc" font-size="26" class="label">你的身高是多少？</text>
+
+    <rect x="648" y="120" width="508" height="92" rx="18" fill="#0b2234" stroke="#3d7298" stroke-opacity=".55"/>
+    <text x="676" y="151" fill="#77cfff" class="small">CONTEXT RETRIEVED</text>
+    <text x="676" y="181" fill="#eaf6ff" font-size="22" class="label">身份 / 个人资料</text>
+    <text x="1128" y="181" text-anchor="end" fill="#70d0ff" font-size="26" class="mono">185 cm</text>
+    <text x="676" y="200" fill="#7891a9" class="small">answer grounded in approved knowledge</text>
+  </g>
+
+  <g transform="translate(44 250)">
+    <text x="0" y="0" fill="#6e87a1" class="small">RUN TRACE / 01 → 08</text>
+    <text x="0" y="29" fill="#dcecf8" font-size="22" class="display">A loop you can inspect</text>
+    <circle cx="1112" cy="12" r="5" fill="#65c8ff"/>
+  </g>
+
+  <path d="M128 402H1060V618H128" fill="none" stroke="#23445f" stroke-width="2"/>
+  <path class="flow" d="M128 402H1060V618H128" fill="none" stroke="url(#line)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M1060 618H128" fill="none" stroke="#254a66" stroke-width="1.4" stroke-dasharray="2 12"/>
+
+  <g filter="url(#glow)">
+    <circle r="6" fill="#a8e8ff">
+      <animateMotion dur="7.2s" repeatCount="indefinite" path="M128 402 H1060 V618 H128"/>
+    </circle>
+  </g>
+
+  <g class="node">
+    <circle cx="128" cy="402" r="42" fill="#0b2133" stroke="#6ccaff" stroke-width="1.5"/>
+    <circle cx="128" cy="402" r="10" fill="none" stroke="#9edfff" stroke-width="1.4"/>
+    <path d="M128 382v12m-8 20c1-10 4-15 8-15s7 5 8 15" fill="none" stroke="#a9e2ff" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="128" y="458" text-anchor="middle" fill="#f0f7fc" font-size="20" class="label">装载人格</text>
+    <text x="128" y="483" text-anchor="middle" fill="#67c8ff" font-size="15" class="mono">temp 0.70</text>
+    <text x="128" y="500" text-anchor="middle" fill="#8aa1b5" class="small">system role</text>
+  </g>
+
+  <g class="node n2">
+    <circle cx="438" cy="402" r="42" fill="#0b2133" stroke="#4f9dca" stroke-width="1.5"/>
+    <path d="M420 392h36v22h-20l-10 8v-8h-6z" fill="none" stroke="#a7ddff" stroke-width="1.4" stroke-linejoin="round"/>
+    <text x="438" y="458" text-anchor="middle" fill="#f0f7fc" font-size="20" class="label">读取问题</text>
+    <text x="438" y="483" text-anchor="middle" fill="#67c8ff" font-size="15" class="mono">8 chars</text>
+    <text x="438" y="500" text-anchor="middle" fill="#8aa1b5" class="small">input boundary</text>
+  </g>
+
+  <g class="node n3">
+    <circle cx="746" cy="402" r="42" fill="#0b2133" stroke="#4f9dca" stroke-width="1.5"/>
+    <text x="746" y="411" text-anchor="middle" fill="#bce7ff" font-size="25" class="mono">Aa</text>
+    <text x="746" y="458" text-anchor="middle" fill="#f0f7fc" font-size="20" class="label">查询分词</text>
+    <text x="746" y="483" text-anchor="middle" fill="#67c8ff" font-size="15" class="mono">NFKC · bigram</text>
+    <text x="746" y="500" text-anchor="middle" fill="#8aa1b5" class="small">deterministic</text>
+  </g>
+
+  <g class="node n4">
+    <circle cx="1060" cy="402" r="42" fill="#0b2133" stroke="#6ccaff" stroke-width="1.5"/>
+    <path d="M1048 384h24v37h-24zM1044 396h32M1052 390h4m5 0h4m5 0h4" fill="none" stroke="#a9e2ff" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="1060" y="458" text-anchor="middle" fill="#f0f7fc" font-size="20" class="label">候选召回</text>
+    <text x="1060" y="483" text-anchor="middle" fill="#67c8ff" font-size="15" class="mono">33 facts</text>
+    <text x="1060" y="500" text-anchor="middle" fill="#8aa1b5" class="small">local index</text>
+  </g>
+
+  <g class="node n5">
+    <circle cx="1060" cy="618" r="42" fill="#0b2133" stroke="#6ccaff" stroke-width="1.5"/>
+    <path d="M1045 604h13l19 22h-13zM1045 618h13l7 8h-13z" fill="none" stroke="#a9e2ff" stroke-width="1.4" stroke-linejoin="round"/>
+    <text x="1060" y="674" text-anchor="middle" fill="#f0f7fc" font-size="20" class="label">Rerank 重排</text>
+    <text x="1060" y="699" text-anchor="middle" fill="#67c8ff" font-size="15" class="mono">1 / 4 / +8</text>
+    <text x="1060" y="716" text-anchor="middle" fill="#8aa1b5" class="small">≥3 cutoff · top-k ≤4</text>
+  </g>
+
+  <g class="node n6">
+    <circle cx="746" cy="618" r="42" fill="#0b2133" stroke="#4f9dca" stroke-width="1.5"/>
+    <path d="M728 602h36M728 612h36M728 622h36" stroke="#a9e2ff" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="746" y="674" text-anchor="middle" fill="#f0f7fc" font-size="20" class="label">上下文组装</text>
+    <text x="746" y="699" text-anchor="middle" fill="#67c8ff" font-size="15" class="mono">≤ 1800 chars</text>
+    <text x="746" y="716" text-anchor="middle" fill="#8aa1b5" class="small">source budget</text>
+  </g>
+
+  <g class="node n7">
+    <circle cx="438" cy="618" r="42" fill="#0b2133" stroke="#4f9dca" stroke-width="1.5"/>
+    <path d="M422 601h32l-16 22h12l-24 15 7-12h-11z" fill="none" stroke="#a9e2ff" stroke-width="1.4" stroke-linejoin="round"/>
+    <text x="438" y="674" text-anchor="middle" fill="#f0f7fc" font-size="20" class="label">模型生成</text>
+    <text x="438" y="699" text-anchor="middle" fill="#67c8ff" font-size="15" class="mono">400 max tokens</text>
+    <text x="438" y="716" text-anchor="middle" fill="#8aa1b5" class="small">deepseek-v4-flash</text>
+  </g>
+
+  <g class="node n8">
+    <circle cx="128" cy="618" r="42" fill="#0b2133" stroke="#6ccaff" stroke-width="1.5"/>
+    <circle cx="128" cy="618" r="16" fill="none" stroke="#a9e2ff" stroke-width="1.4"/>
+    <path d="M120 618l6 6 11-13" fill="none" stroke="#bcf4d2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="128" y="674" text-anchor="middle" fill="#f0f7fc" font-size="20" class="label">回答返回</text>
+    <text x="128" y="699" text-anchor="middle" fill="#67c8ff" font-size="15" class="mono">sources + latency</text>
+    <text x="128" y="716" text-anchor="middle" fill="#8aa1b5" class="small">inspectable output</text>
+  </g>
+</svg>
