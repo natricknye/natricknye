@@ -1,9 +1,9 @@
 <a href="https://natricknye.cn/#chat">
-  <img src="assets/ask-my-ai-final.svg" width="100%" alt="Ask Nate AI — opens the live personal agent">
+  <img src="assets/ask-nate-ai-bright.svg" width="100%" alt="Ask Nate AI — opens the live personal agent">
 </a>
 
 <a href="https://natricknye.cn/#chat">
-  <img src="assets/rag-orbit-full-rotation.gif" width="100%" alt="Agent and RAG execution loop: eight stages around a continuously rotating ASCII Earth with static NATE NYE lettering">
+  <img src="assets/rag-orbit-bright.gif" width="100%" alt="Agent and RAG execution loop: eight stages around a continuously rotating ASCII Earth with static NATE NYE lettering">
 </a>
 
 I build agent systems that make their execution inspectable: **retrieval**, **reranking**, **tool calling**, **latency**, and **generation** are part of the interface.
