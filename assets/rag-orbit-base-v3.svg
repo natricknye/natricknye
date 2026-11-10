@@ -32,30 +32,29 @@
     <text x="48" y="96" fill="#f5f9fd" font-size="46" class="display">Inspectable R-A-G</text>
   </g>
 
-  <g transform="translate(0 -20)">
   <g fill="none" stroke="#284a61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M280 276L485 196H920"/>
+    <path d="M280 216H920"/>
     <path d="M1035 282V420"/>
-    <path d="M1035 552V600"/>
-    <path d="M920 675L715 826H485L280 675"/>
-    <path d="M165 600V552"/>
+    <path d="M1035 552V615"/>
+    <path d="M920 690H280"/>
+    <path d="M165 615V552"/>
   </g>
   <g fill="none" stroke="url(#line)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 10">
-    <path d="M280 276L485 196H920"/>
+    <path d="M280 216H920"/>
     <path d="M1035 282V420"/>
-    <path d="M1035 552V600"/>
-    <path d="M920 675L715 826H485L280 675"/>
-    <path d="M165 600V552"/>
+    <path d="M1035 552V615"/>
+    <path d="M920 690H280"/>
+    <path d="M165 615V552"/>
   </g>
 
   <g>
-    <rect x="50" y="230" width="230" height="132" rx="16" fill="url(#card)" stroke="#84e8ff"/>
-    <circle cx="78" cy="258" r="10" fill="none" stroke="#a9e8ff" stroke-width="1.4"/>
-    <path d="M78 245v7m-6 14c1-8 3-11 6-11s5 3 6 11" fill="none" stroke="#a9e8ff" stroke-width="1.3" stroke-linecap="round"/>
-    <text x="99" y="257" fill="#f5fcff" font-size="15.5" font-weight="700">Persona v1</text>
-    <rect x="68" y="286" width="58" height="26" rx="6" fill="#12334a"/><text x="97" y="304" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700" class="mono">0.70</text>
-    <rect x="132" y="286" width="92" height="26" rx="6" fill="#12334a"/><text x="178" y="304" text-anchor="middle" fill="#e5f9ff" font-size="13" class="mono">thinking off</text>
-    <text x="165" y="338" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">1 · Load persona</text>
+    <rect x="50" y="150" width="230" height="132" rx="16" fill="url(#card)" stroke="#84e8ff"/>
+    <circle cx="78" cy="178" r="10" fill="none" stroke="#a9e8ff" stroke-width="1.4"/>
+    <path d="M78 165v7m-6 14c1-8 3-11 6-11s5 3 6 11" fill="none" stroke="#a9e8ff" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="99" y="177" fill="#f5fcff" font-size="15.5" font-weight="700">Persona v1</text>
+    <rect x="68" y="206" width="58" height="26" rx="6" fill="#12334a"/><text x="97" y="224" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700" class="mono">0.70</text>
+    <rect x="132" y="206" width="92" height="26" rx="6" fill="#12334a"/><text x="178" y="224" text-anchor="middle" fill="#e5f9ff" font-size="13" class="mono">thinking off</text>
+    <text x="165" y="258" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">1 · Load persona</text>
   </g>
 
   <g>
@@ -77,14 +76,14 @@
   </g>
 
   <g>
-    <rect x="935" y="420" width="230" height="132" rx="16" fill="url(#card)" stroke="#89e9ff"/>
-    <rect x="952" y="458" width="196" height="28" rx="5" fill="#16455a" stroke="#8ddcff"/><text x="962" y="477" fill="#ffffff" font-size="13" font-weight="700" class="mono">K023 · identity</text><text x="1138" y="477" text-anchor="end" fill="#7ee8ff" font-size="11" class="mono">TOP HIT</text>
-    <text x="1050" y="505" text-anchor="middle" fill="#cbe9f7" font-size="11.5" class="mono">33 scanned · 1 match</text>
-    <text x="1050" y="522" text-anchor="middle" fill="#9fc5dc" font-size="11" class="mono">all approved entries</text>
-    <text x="1050" y="540" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">4 · Recall</text>
+    <rect x="920" y="420" width="230" height="132" rx="16" fill="url(#card)" stroke="#89e9ff"/>
+    <rect x="937" y="458" width="196" height="28" rx="5" fill="#16455a" stroke="#8ddcff"/><text x="947" y="477" fill="#ffffff" font-size="13" font-weight="700" class="mono">K023 · identity</text><text x="1123" y="477" text-anchor="end" fill="#7ee8ff" font-size="11" class="mono">TOP HIT</text>
+    <text x="1035" y="505" text-anchor="middle" fill="#cbe9f7" font-size="11.5" class="mono">33 scanned · 1 match</text>
+    <text x="1035" y="522" text-anchor="middle" fill="#9fc5dc" font-size="11" class="mono">all approved entries</text>
+    <text x="1035" y="540" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">4 · Recall</text>
   </g>
 
-  <g transform="translate(0 -15)">
+  <g>
     <rect x="920" y="615" width="230" height="150" rx="16" fill="url(#card)" stroke="#a7b5ff"/>
     <text x="946" y="641" fill="#ffffff" font-size="13.5" class="mono">K023</text>
     <rect x="992" y="633" width="134" height="8" rx="4" fill="#1c3b53"/><rect x="992" y="633" width="134" height="8" rx="4" fill="#e0f5ff"/>
@@ -95,15 +94,15 @@
     <text x="1035" y="748" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">5 · Rerank</text>
   </g>
 
-  <g transform="translate(0 8)">
-    <rect x="485" y="752" width="230" height="132" rx="16" fill="url(#card)" stroke="#89e9ff"/>
-    <rect x="505" y="791" width="190" height="25" rx="5" fill="#12364b" stroke="#8ddcff"/>
-    <text x="517" y="808" fill="#ffffff" font-size="13.5" font-weight="700" class="mono">[K023] Personal profile</text>
-    <text x="600" y="835" text-anchor="middle" fill="#edfbff" font-size="14" class="mono">1 selected · 95 chars</text>
-    <text x="600" y="859" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">6 · Assemble context</text>
+  <g>
+    <rect x="485" y="615" width="230" height="150" rx="16" fill="url(#card)" stroke="#89e9ff"/>
+    <rect x="505" y="654" width="190" height="25" rx="5" fill="#12364b" stroke="#8ddcff"/>
+    <text x="517" y="671" fill="#ffffff" font-size="13.5" font-weight="700" class="mono">[K023] Personal profile</text>
+    <text x="600" y="710" text-anchor="middle" fill="#edfbff" font-size="14" class="mono">1 selected · 95 chars</text>
+    <text x="600" y="741" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">6 · Assemble context</text>
   </g>
 
-  <g transform="translate(0 -15)">
+  <g>
     <rect x="50" y="615" width="230" height="150" rx="16" fill="url(#card)" stroke="#a7b5ff"/>
     <rect x="68" y="642" width="74" height="22" rx="5" fill="#17284a"/><text x="105" y="658" text-anchor="middle" fill="#f6fcff" font-size="13">persona</text>
     <text x="155" y="657" fill="#5f819f">→</text>
@@ -114,11 +113,10 @@
   </g>
 
   <g>
-    <rect x="30" y="420" width="230" height="132" rx="16" fill="url(#card)" stroke="#8eeaff"/>
-    <path d="M60 447h159a12 12 0 0 1 12 12v31a12 12 0 0 1-12 12h-94l-22 15v-15H60a12 12 0 0 1-12-12v-31a12 12 0 0 1 12-12z" fill="#0e2b40" stroke="#79adcf"/>
-    <text x="145" y="474" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="600">I'm 185 cm tall.</text>
-    <text x="145" y="497" text-anchor="middle" fill="#ffffff" font-size="14" class="mono">1 source · returned</text>
-    <text x="145" y="532" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">8 · Return answer</text>
-  </g>
+    <rect x="50" y="420" width="230" height="132" rx="16" fill="url(#card)" stroke="#8eeaff"/>
+    <path d="M80 447h159a12 12 0 0 1 12 12v31a12 12 0 0 1-12 12h-94l-22 15v-15H80a12 12 0 0 1-12-12v-31a12 12 0 0 1 12-12z" fill="#0e2b40" stroke="#79adcf"/>
+    <text x="165" y="474" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="600">I'm 185 cm tall.</text>
+    <text x="165" y="497" text-anchor="middle" fill="#ffffff" font-size="14" class="mono">1 source · returned</text>
+    <text x="165" y="532" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">8 · Return answer</text>
   </g>
 </svg>
