@@ -24,8 +24,8 @@ base = base.resize((880, 660), Image.Resampling.LANCZOS)
 source = Image.open(SOURCE)
 globe_box = (320, 165, 570, 400)
 nate_box = (338, 398, 548, 535)
-globe_target = (447, 205)
-nate_target = (242, 268)
+globe_target = (236, 205)
+nate_target = (485, 255)
 frames = []
 
 for frame_index in range(source.n_frames):
@@ -38,7 +38,7 @@ for frame_index in range(source.n_frames):
     nate = source_frame.crop(nate_box).resize(
         (165, 108), Image.Resampling.LANCZOS
     )
-    for layer, target in ((nate, nate_target), (globe, globe_target)):
+    for layer, target in ((globe, globe_target), (nate, nate_target)):
         mask = ImageOps.grayscale(layer).point(
             lambda value: max(0, min(255, int((value - 42) * 5)))
         )
