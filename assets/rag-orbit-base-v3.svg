@@ -33,10 +33,20 @@
   </g>
 
   <g transform="translate(0 -20)">
-  <path d="M165 296L600 172L1035 296L1050 486L1035 675L600 826L165 675L145 486"
-        fill="none" stroke="#284a61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M165 296L600 172L1035 296L1050 486L1035 675L600 826L165 675L145 486"
-        fill="none" stroke="url(#line)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 10"/>
+  <g fill="none" stroke="#284a61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M280 276L485 196H920"/>
+    <path d="M1035 282V420"/>
+    <path d="M1035 552V600"/>
+    <path d="M920 675L715 826H485L280 675"/>
+    <path d="M165 600V552"/>
+  </g>
+  <g fill="none" stroke="url(#line)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 10">
+    <path d="M280 276L485 196H920"/>
+    <path d="M1035 282V420"/>
+    <path d="M1035 552V600"/>
+    <path d="M920 675L715 826H485L280 675"/>
+    <path d="M165 600V552"/>
+  </g>
 
   <g>
     <rect x="50" y="230" width="230" height="132" rx="16" fill="url(#card)" stroke="#84e8ff"/>
@@ -49,21 +59,21 @@
   </g>
 
   <g>
-    <rect x="485" y="106" width="230" height="132" rx="16" fill="url(#card)" stroke="#8be8ff"/>
-    <text x="600" y="160" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="600">How tall are you?</text>
-    <rect x="528" y="181" width="144" height="4" rx="2" fill="#19384d"/>
-    <rect x="528" y="181" width="14" height="4" rx="2" fill="#8ee7ff"/>
-    <text x="600" y="194" text-anchor="middle" fill="#effbff" font-size="14" class="mono">17 / 1,000 chars · EN</text>
-    <text x="600" y="221" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">2 · Read query</text>
+    <rect x="485" y="150" width="230" height="132" rx="16" fill="url(#card)" stroke="#8be8ff"/>
+    <text x="600" y="204" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="600">How tall are you?</text>
+    <rect x="528" y="225" width="144" height="4" rx="2" fill="#19384d"/>
+    <rect x="528" y="225" width="14" height="4" rx="2" fill="#8ee7ff"/>
+    <text x="600" y="238" text-anchor="middle" fill="#effbff" font-size="14" class="mono">17 / 1,000 chars · EN</text>
+    <text x="600" y="265" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">2 · Read query</text>
   </g>
 
   <g>
-    <rect x="920" y="230" width="230" height="132" rx="16" fill="url(#card)" stroke="#a7b5ff"/>
+    <rect x="920" y="150" width="230" height="132" rx="16" fill="url(#card)" stroke="#a7b5ff"/>
     <g fill="#e5f1ff" font-size="13" class="mono">
-      <rect x="1001" y="270" width="68" height="24" rx="5" fill="#142d4a"/><text x="1035" y="287" text-anchor="middle">tall</text>
+      <rect x="1001" y="190" width="68" height="24" rx="5" fill="#142d4a"/><text x="1035" y="207" text-anchor="middle">tall</text>
     </g>
-    <text x="1035" y="316" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700" class="mono">1 query token</text>
-    <text x="1035" y="347" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">3 · Tokenize</text>
+    <text x="1035" y="236" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700" class="mono">1 query token</text>
+    <text x="1035" y="267" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">3 · Tokenize</text>
   </g>
 
   <g>
