@@ -62,8 +62,8 @@
     <text x="97" y="201" text-anchor="middle" fill="#b9dff1" font-size="10.5" class="mono">identity</text>
     <text x="154.5" y="201" text-anchor="middle" fill="#b9dff1" font-size="10.5" class="mono">tone</text>
     <text x="214" y="201" text-anchor="middle" fill="#b9dff1" font-size="10.5" class="mono">limits</text>
-    <rect x="68" y="206" width="58" height="26" rx="6" fill="#12334a"/><text x="97" y="224" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700" class="mono">0.70</text>
-    <rect x="132" y="206" width="92" height="26" rx="6" fill="#12334a"/><text x="178" y="224" text-anchor="middle" fill="#e5f9ff" font-size="13" class="mono">thinking off</text>
+    <rect x="68" y="206" width="76" height="26" rx="6" fill="#12334a"/><text x="106" y="224" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" class="mono">temp 0.70</text>
+    <rect x="150" y="206" width="112" height="26" rx="6" fill="#12334a"/><text x="206" y="224" text-anchor="middle" fill="#e5f9ff" font-size="12.5" class="mono">thinking off</text>
     <text x="165" y="258" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">1 · Load persona</text>
   </g>
 
@@ -77,15 +77,9 @@
 
   <g>
     <rect x="920" y="150" width="230" height="132" rx="16" fill="url(#card)" stroke="#a7b5ff"/>
-    <rect x="941" y="187" width="47" height="22" rx="5" fill="#102432"/>
-    <rect x="992" y="187" width="47" height="22" rx="5" fill="#213b69" stroke="#a7c8ff"/>
-    <rect x="1043" y="187" width="43" height="22" rx="5" fill="#102432"/>
-    <rect x="1090" y="187" width="43" height="22" rx="5" fill="#102432"/>
-    <text x="964.5" y="202" text-anchor="middle" fill="#7195ab" font-size="11.5" class="mono">how</text>
-    <text x="1015.5" y="202" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" class="mono">tall</text>
-    <text x="1064.5" y="202" text-anchor="middle" fill="#7195ab" font-size="11.5" class="mono">are</text>
-    <text x="1111.5" y="202" text-anchor="middle" fill="#7195ab" font-size="11.5" class="mono">you</text>
-    <text x="1035" y="226" text-anchor="middle" fill="#9fc5dc" font-size="11.5" class="mono">normalize ✓ · stopwords removed</text>
+    <rect x="1003" y="187" width="64" height="22" rx="5" fill="#213b69" stroke="#a7c8ff"/>
+    <text x="1035" y="203" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" class="mono">tall</text>
+    <text x="1035" y="226" text-anchor="middle" fill="#9fc5dc" font-size="11.5" class="mono">stopwords removed · 3</text>
     <text x="1035" y="245" text-anchor="middle" fill="#ffffff" font-size="14.5" font-weight="700" class="mono">1 content token</text>
     <text x="1035" y="267" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">3 · Tokenize</text>
   </g>
@@ -123,8 +117,9 @@
     <text x="155" y="657" fill="#5f819f">→</text>
     <rect x="170" y="642" width="92" height="22" rx="5" fill="#17284a"/><text x="216" y="658" text-anchor="middle" fill="#f6fcff" font-size="13">knowledge</text>
     <rect x="68" y="671" width="194" height="21" rx="5" fill="#102f48"/><text x="165" y="686" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700" class="mono">deepseek-v4-flash</text>
-    <text x="165" y="707" text-anchor="middle" fill="#e7f7ff" font-size="12.5" class="mono">temp 0.70 · max 400 · 25s</text>
-    <text x="165" y="735" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">7 · Generate</text>
+    <text x="165" y="707" text-anchor="middle" fill="#e7f7ff" font-size="11.5" class="mono">temp 0.70 · max tokens 400</text>
+    <text x="165" y="723" text-anchor="middle" fill="#9fc5dc" font-size="10.5" class="mono">upstream timeout 25s</text>
+    <text x="165" y="748" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">7 · Generate</text>
   </g>
 
   <g>
