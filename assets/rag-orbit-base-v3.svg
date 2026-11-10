@@ -70,7 +70,7 @@
   <g>
     <rect x="485" y="150" width="230" height="132" rx="16" fill="url(#card)" stroke="#8be8ff"/>
     <text x="600" y="198" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="600">How tall are you?</text>
-    <text x="600" y="225" text-anchor="middle" fill="#effbff" font-size="14" class="mono"><tspan fill="#8ee7ff" font-weight="700">17</tspan><tspan> chars / 1,000</tspan></text>
+    <text x="600" y="225" text-anchor="middle" fill="#effbff" font-size="14" class="mono">17 chars / 1,000</text>
     <text x="600" y="245" text-anchor="middle" fill="#9fc5dc" font-size="11.5" class="mono">normalize ✓ · lang EN</text>
     <text x="600" y="267" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">2 · Read query</text>
   </g>
