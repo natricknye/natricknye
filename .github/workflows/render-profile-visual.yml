@@ -1,0 +1,28 @@
+name: Render profile visual
+
+on:
+  push:
+    paths:
+      - ".github/workflows/render-profile-visual.yml"
+      - "scripts/render_profile_visual.py"
+      - "assets/rag-orbit-base-v3.svg"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow cairosvg
+      - run: python scripts/render_profile_visual.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/rag-orbit-v6-final.gif
+          git diff --staged --quiet || git commit -m "Render corrected RAG profile visual"
+          git push
