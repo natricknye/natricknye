@@ -2,10 +2,10 @@
   <img src="assets/ask-nate-ai-v5.svg" width="100%" alt="Ask Nate AI — opens the live personal agent">
 </a>
 <a href="https://natricknye.cn/#chat">
-  <img src="assets/rag-orbit-v5-final.gif" width="100%" alt="Agent and RAG execution loop: eight stages around a continuously rotating ASCII Earth with static NATE NYE lettering">
+  <img src="assets/rag-orbit-v6-final.gif" width="100%" alt="Agent and RAG execution loop: eight stages around a continuously rotating ASCII Earth with static NATE NYE lettering">
 </a>
 
-Currently exploring **Campus Agents**, **Retrival Augmented Generation**, **Interaction Design** and **Recursive Self-Improving** for AI systems.
+Currently exploring **campus agents**, **retrieval-augmented generation**, **interaction design**, and **recursive self-improvement** for AI systems.
 
 [Personal Site](https://natricknye.cn/) · [Live Nate Agent](https://natricknye.cn/#chat) · [GitHub Profile](https://github.com/natricknye)
 
