@@ -5,7 +5,8 @@
   <img src="assets/rag-orbit-v6-final.gif" width="100%" alt="Agent and RAG execution loop: eight stages around a continuously rotating ASCII Earth with static NATE NYE lettering">
 </a>
 
-Currently exploring **Campus Agents**, **Retrieval-Augmented Generation**, **Interaction Design**, and **Recursive Self-Improvement** for AI systems.
+Hi, I'm a student studying **electrical and computer engineering** at Shanghai Jiao Tong University.
+Currently I'm exploring **Campus Agents**, **Retrieval-Augmented Generation**, **Interaction Design**, and **Recursive Self-Improvement** for AI systems.
 
 [Personal Site](https://natricknye.cn/) · [Live Nate Agent](https://natricknye.cn/#chat) · [GitHub Profile](https://github.com/natricknye)
 
